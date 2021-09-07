@@ -1,0 +1,12 @@
+{
+  "elasticsearch": {
+    "snafu-fio-log": [
+      {
+        "filter": {
+          "log_name.keyword": "bw"
+        },
+        "timeseries": true
+      }
+    ]
+  }
+}

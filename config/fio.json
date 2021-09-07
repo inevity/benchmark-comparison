@@ -1,75 +1,42 @@
 {
   "elasticsearch": {
-    "metadata": {
-      "cpuinfo-metadata": {
-        "additional_fields": [
-          "pod_name"
-        ],
-        "fields": [
-          "value.Model name",
-          "value.Architecture",
-          "value.CPU(s)"
-        ]
-      },
-      "meminfo-metadata": {
-        "additional_fields": [
-          "pod_name"
-        ],
-        "fields": [
-          "value.MemTotal"
-        ]
-      },
-      "k8s_cluster_info-metadata": {
-        "fields": [
-          "value.cluster_version"
-        ]
-      }
-    },
-    "ripsaw-uperf-results": [
+    "snafu-fio-log": [
       {
         "filter": {
-          "test_type.keyword": "stream"
+          "log_name.keyword": "bw",
+          "job_name.keyword": "read"
         },
         "exclude": {
-          "norm_ops": 0
         },
         "buckets": [
-          "protocol.keyword",
-          "message_size",
-          "num_threads"
+          "host.keyword",
+          "sample",
+          "job_number"
         ],
         "aggregations": {
-          "norm_byte": [
+          "bandwidth": [
             "max",
-            "avg"
+            "avg",
+            {"percentiles": {"percents": [95, 99]}}
           ]
         }
-      },
+      }
+     ],
+
+
+    "snafu-fio-hist-log": [
       {
         "filter": {
-          "test_type.keyword": "rr"
+          "log_name.keyword": "clat_hist"
         },
         "exclude": {
-          "norm_ops": 0
         },
         "buckets": [
-          "protocol.keyword",
-          "message_size",
-          "num_threads"
+          "sample",
+          "job_name.keyword"
         ],
         "aggregations": {
-          "norm_ops": [
-            "max",
-            "avg"
-          ],
-          "norm_ltcy": [
-            {
-              "percentiles": {
-                "percents": [
-                  99
-                ]
-              }
-            },
+          "p95": [
             "avg"
           ]
         }
