@@ -1,0 +1,1000 @@
+  113  bash setup
+  114  exit
+  115  cd perf/
+  116  cd snafu/
+  117  ls
+  118  pyenv help
+  119  pyenv virtualenvs
+  120  pyenv activate
+  121  pyenv activate latest37
+  122  ls
+  123  exit
+  124  ip addr
+  125  cd perf/
+  126  ls
+  127  ls roles/
+  128  git log
+  129  git status
+  130  ls
+  131  cd ../waterclock-vpn/
+  132  ls
+  133  vim main.yml 
+  134  cat files/golang.sh 
+  135  vim main.yml 
+  136  cd perf/pbench/
+  137  git show
+  138  ls
+  139  exit
+  140  history|grep ssh
+  141  ssh root@172.16.10.140
+  142  ssh ipfs@172.16.10.64
+  143  clear
+  144  ls
+  145  ip a
+  146  ip a
+  147  reboot
+  148  ls
+  149   ip a
+  150  cat /etc/fstab
+  151  vi /etc/fstab 
+  152  df -h
+  153  vim /etc/fstab
+  154  reboot
+  155  cd perf/snafu/
+  156  ls
+  157  history |grpe snafu
+  158  ssh 172.18.10.140
+  159  exit
+  160  df -h
+  161  cd perf/
+  162  ls
+  163  cd snafu/
+  164  git status
+  165  git diff 
+  166  git status
+  167  pyenv activate latest37
+  168  ls
+  169  git status
+  170  history 
+  171  sh bensh.sh 
+  172  git status
+  173  df -h
+  174  vim snafu/utils/request_cache_drop.py
+  175  sh bensh.sh 
+  176  rm -rf /tmp/fiodagine/1/read/fio
+  177  sh bensh.sh 
+  178  grep -nr 'Log file' .
+  179  vim ./snafu/fio_wrapper/trigger_fio.py
+  180  vim bensh.sh 
+  181  vim fiojob1 
+  182  sh bensh.sh 
+  183  ls /tmp/fiodagine/1/read
+  184  vim fiojob1 
+  185  history |grep fio|grep client
+  186  io --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/fiod/1/rw/fio-result.json fiojob1 
+  187  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/fiod/1/rw/fio-result.json fiojob1 
+  188  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/ fiojob1 
+  189  mkdir /tmp/dir
+  190  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/fiod/1/rw/fio-result.json fiojob1 
+  191  sh bensh.sh 
+  192  vim ./snafu/fio_wrapper/trigger_fio.py
+  193  sh bensh.sh 
+  194  ls -lah /tmp/fiodagine/1/read/fio
+  195  ls -lah /tmp/fiodagine/1/read/
+  196  vim bensh.sh 
+  197  sh bensh.sh 
+  198  ls -lah /tmp/fiodagine/2/read/fiojob
+  199  history 
+  200  cat bensh.sh 
+  201  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  202  grep -nr time_ms .
+  203  cat /tmp/fiodagine/1/read/fio_bw.1.log.rpm9 
+  204  1docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "http.cors.enabled=true" -e "http.cors.allow-origin=*" -e "http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization" -e "http.cors.allow-credentials=true" docker.elastic.co/elasticsearch/elasticsearch:7.0.1
+  205  docker run --restart=always -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "http.cors.enabled=true" -e "http.cors.allow-origin=*" -e "http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization" -e "http.cors.allow-credentials=true" docker.elastic.co/elasticsearch/elasticsearch:7.0.1
+  206  systemctl statu sdocker
+  207  systemctl status sdocker
+  208  systemctl status docker
+  209  systemctl start docker
+  210  docker run -d -p 3000:3000 --name grafana grafana/grafana:6.3.0
+  211  docker ps
+  212  docker ps --all
+  213  docker run --restart=always -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "http.cors.enabled=true" -e "http.cors.allow-origin=*" -e "http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization" -e "http.cors.allow-credentials=true" docker.elastic.co/elasticsearch/elasticsearch:7.0.1
+  214  history |grep graf
+  215  1docker run -d -p 3000:3000 --name grafana grafana/grafana:6.3.0
+  216  docker run -d --restart=always -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e "http.cors.enabled=true" -e "http.cors.allow-origin=*" -e "http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization" -e "http.cors.allow-credentials=true" docker.elastic.co/elasticsearch/elasticsearch:7.0.1
+  217  docker run -d --restart=always -p 3000:3000 --name grafana grafana/grafana:6.3.0
+  218  docker run -d --restart=always -p 3000:3000 grafana/grafana:6.3.0
+  219  docker ps
+  220  docker ps --all
+  221  ls /tmp/fiodagine/1/read/fio_bw.1.log.rpm9
+  222  history 
+  223  docker stop grafana
+  224  docker ps
+  225  docker stop b22927f27044
+  226  docker ps
+  227  docker rm b22927f27044
+  228  docker run -d --restart=always -p 3000:3000 --name grafana grafana/grafana:6.3.0
+  229  docker rm 72f0c2eba32a39f6b5b539dfb1fae1322158a18a5a94dc482b9e9e6eb04f8c0a
+  230  docker run -d --restart=always -p 3000:3000 --name grafana grafana/grafana:6.3.0
+  231  1docker exec -it grafana grafana-cli admin reset-admin-password admin
+  232  docker exec -it grafana grafana-cli admin reset-admin-password admin
+  233  docker run -p 1358:1358 -d appbaseio/dejavu
+  234  fio --server
+  235  ls
+  236  df -h
+  237  cd perf/
+  238  ls
+  239  cd snafu/
+  240  ls
+  241  ip sfft
+  242  ip addr 
+  243  ip addr
+  244  pyenv activate latest37
+  245  cd perf/snafu/
+  246  cat bensh.sh 
+  247  curl --silent 'http://127.0.0.1:9200/_cat/_template' | cut -d\  -f3
+  248  curl --silent 'http://127.0.0.1:9200/_cat/_template*' | cut -d\  -f3
+  249  curl --silent 'http://127.0.0.1:9200/_cat/_template' | cut -d\  -f3
+  250  curl --silent 'http://127.0.0.1:9200/_cat/_templates
+  251  curl -XGET http://192.168.80.10:9200/_template/temp*?pretty
+  252  curl -XGET http://192.168.80.10:9200/_template/?pretty
+  253  curl -XGET http://192.168.80.10:9200/_template/
+  254  curl -XGET http://192.168.80.10:9200/_template/fio*
+  255  docker ps
+  256  curl -XGET http://192.168.80.10:9200/_template/fio*
+  257  curl -XGET http://172.18.123.49:9200/_template/fio*
+  258  curl -XGET http://172.18.123.49:9200/_template
+  259  curl -XGET http://172.18.123.49:9200/_template?pretty
+  260  curl -XGET http://172.18.123.49:9200/_template/*log*?pretty
+  261  curl -X GET http://172.18.123.49:9200/_template/fio-logs.json|jq
+  262  grep -nr data_re .
+  263  grep -nr data_direction .
+  264  vim ./snafu/fio_wrapper/trigger_fio.py
+  265  git log -S '"date": newtime'
+  266  git show a1f0c098940ec3ec8e832a150486d2f17d3486df
+  267  ls ../
+  268  grep -nr time_ms ../benchmark-operator/
+  269  vim ../benchmark-operator/docs/fio_distributed.md
+  270  grep -nr time_ms ../benchmark-operator/
+  271  grep -nr time_ms .
+  272  vim ./snafu/fio_wrapper/trigger_fio.py
+  273  ps -ef|grep gra
+  274  docker ps
+  275  vim tempatlevar
+  276  cat tempatlevar 
+  277  vim tempatlevar
+  278  grep query tempatlevar
+  279  vim newfilerer
+  280  vim  newfilerer 
+  281  grep -nri query newfilerer 
+  282  vim  newfilerer 
+  283  vim dashboard.json
+  284  git add dashboard.json 
+  285  git commit -m "bw ok now"
+  286  vim dashboard.json 
+  287  ls -lah
+  288  ls -laht
+  289  vim tempatlevar 
+  290  vim dashboard.json 
+  291  vim tempatlevar 
+  292  vim dashboard.json 
+  293  vim tempatlevar 
+  294  vim dashboard.json 
+  295  vim tempatlevar 
+  296  vim dashboard.json 
+  297  git status
+  298  git diff dashboard.json 
+  299  git status
+  300  git add dashboard.json 
+  301  git commit -m "update dashboard.json to query"
+  302  git status
+  303  wget https://github.com/cloud-bulldozer/arsenal/blob/master/fio-distributed/grafana/6.3.0/dashboard.json
+  304  curl -O https://github.com/cloud-bulldozer/arsenal/blob/master/fio-distributed/grafana/6.3.0/dashboard.json
+  305  git status
+  306  git diff
+  307  vim dashboard.json 
+  308  curl -O https://raw.githubusercontent.com/cloud-bulldozer/arsenal/master/fio-distributed/grafana/6.3.0/dashboard.json
+  309  cat ~/.gitconfig 
+  310  https_proxy=http://192.168.1.185:8080 curl -O https://raw.githubusercontent.com/cloud-bulldozer/arsenal/master/fio-distributed/grafana/6.3.0/dashboard.json
+  311  git diff dashboard.json 
+  312  git status
+  313  vim dashboard.json 
+  314  git tatus
+  315  git status
+  316  grep -nr time_ms .
+  317  vim bensh.sh 
+  318  vim fiojob1 
+  319  grep -nr log_name .
+  320  vim ./snafu/fio_wrapper/trigger_fio.py
+  321  cat /tmp/fiodagine/1/read/fio_clat_hist.1.log.rpm9 
+  322  grep -nr log_name .
+  323  vim ./snafu/fio_wrapper/trigger_fio.py
+  324  grep -nr processed_histogram_file .
+  325  vim ./snafu/fio_wrapper/trigger_fio.py
+  326  grep -nr _histogram_payload .
+  327  grep -nr histogram_output_file .
+  328  vim ./snafu/fio_wrapper/trigger_fio.py
+  329  grep -nr time_ms .
+  330  vim ./snafu/fio_wrapper/fio_hist_parser.py
+  331  grep -nr parse_hist_file .
+  332  grep -nr fio_hist_parser .
+  333  vim ./snafu/fio_wrapper/trigger_fio.py
+  334  grep -nr compute_percentiles_from_logs .
+  335  vim ./snafu/fio_wrapper/fio_hist_parser.py
+  336  grep -nr server_ip .
+  337  grep -nr server_ip ../benchmark-operator/
+  338  grep -nr job_sequence .
+  339  grep -nr job_sequence ../benchmark-operator/
+  340  git log -S 'job_sequence'
+  341  cd ../benchmark-operator/
+  342  git log -S 'job_sequence'
+  343  git show b6dd3fc2d422d6ca15bedd7eb13f4f4fca1a543a
+  344  git log -S 'job_sequence'
+  345  git show 1a9ac19f9fd544b84738c87d186d7c4282686a30
+  346  git log
+  347  git branch -a
+  348  git checkout -b fioindex fbbb653458d0746851d00235152cd6147b4792cc
+  349  git status
+  350  ls
+  351  grep -nr job_seq .
+  352  vim ./roles/result/templates/fio_bw.json.j2
+  353  grep -nr fio_jobsequence .
+  354  vim ./roles/result/tasks/fio-logs.yml
+  355  vim ./roles/result/tasks/fio-samples.yml
+  356  vim ./roles/result/tasks/fiod-clat-hist.yaml
+  357  find . -name fiod_clat_hist.json.j2
+  358  vim ./roles/result/tasks/fiod-clat-hist.yaml
+  359  vim ./roles/result/templates/fiod_clat_hist.json.j2
+  360  vim ./roles/result/templates/fio_bw.json.j2
+  361  vim ./roles/result/templates/fio_clat.json.j2
+  362  ls roles/result/templates/
+  363  vim roles/result/templates/result.json 
+  364  vim roles/result/templates/fio_lat.json.j2 
+  365  grep -nr server_ip .
+  366  vim ./roles/result/templates/fiod_bw.json.j2
+  367  vim ./roles/result/templates/fiod.json.j2 
+  368  vim ./roles/result/templates/fiod_clat_hist.json.j2 
+  369  vim ./roles/result/templates/fiod_bw.json.j2 
+  370  vimdiff ./roles/result/templates/fiod_bw.json.j2  ./roles/result/templates/fio_bw.json.j2
+  371  git log -S 'fiod'
+  372  git show d7113dcf1dc3fcd824c93dc01798bea2caa198dc
+  373  git log -S 'fio_server_ip'
+  374  history 
+  375  git log -S 'fio_server_ip'
+  376  git show b6dd3fc2d422d6ca15bedd7eb13f4f4fca1a543a
+  377  grep -nr fio_server_ip
+  378  grep -nr fiod-samples.ym .
+  379  vim ./roles/result/tasks/fiod.yaml
+  380  vim ./roles/result/tasks/fio-logs.yml 
+  381  vim ./roles/result/tasks/fio-samples.yml 
+  382  vim ./roles/result/tasks/fio.yaml 
+  383  vim ./roles/result/tasks/main.yml 
+  384  vim ./roles/result/tasks/fiod.yaml 
+  385  vim ./roles/result/tasks/fiod-clat-hist.yaml 
+  386  vim ./roles/result/tasks/fiod-samples.yml 
+  387  vim ./roles/fio-distributed/tasks/main.yml 
+  388  vim ./roles/result/tasks/fiod-samples.yml 
+  389  grep -nri nodename .
+  390  vim ./roles/fio-distributed/tasks/main.yml
+  391  vim ./roles/result/templates/fiod.json.j2
+  392  vim ./roles/result/templates/fiod_bw.json.j2 
+  393  history 
+  394  git checkout master
+  395  git status
+  396  ls
+  397  ls charts/
+  398  ls charts/benchmark-operator/
+  399  vim charts/benchmark-operator/README.md 
+  400  history 
+  401  git log -S 'job_sequence'
+  402  git show 1a9ac19f9fd544b84738c87d186d7c4282686a30
+  403  git branch -a
+  404  git log
+  405  q
+  406  git log
+  407  git show 58caf6bd5097802ab639e121bdaeeda7065d53a8
+  408  git status
+  409  git stauts
+  410  git status
+  411  git stauts
+  412  ls
+  413  grep -nr message_size .
+  414  grep -nr message_size ../snafu/
+  415  vim ../snafu/snafu/log_generator_wrapper/trigger_log_generator.py
+  416  vim ../snafu/snafu/uperf_wrapper/trigger_uperf.py
+  417  git status
+  418  ls
+  419  pyenv list
+  420  ansible-playbook playbooks/benchmark.yml 
+  421  ansible-playbook --list-tasks playbooks/benchmark.yml 
+  422  vim playbooks/benchmark.yml 
+  423  git status
+  424  grep -nr date .
+  425  grep -nr date .|grep -v update
+  426  grep -nr time_ms .
+  427  ls
+  428  vim requirements.yml 
+  429  vim roles/log_generator/tasks/main.yml 
+  430  vim roles/fio_distributed/defaults/main.yml 
+  431  vim roles/fio_distributed/tasks/main.yml 
+  432  cat roles/fio_distributed/templates/configmap.yml.j2 
+  433  vim roles/fio_distributed/tasks/main.yml 
+  434  cat roles/fio_distributed/templates/servers.yaml 
+  435  cat roles/fio_distributed/templates/server_vm.yml.j2 
+  436  vim roles/fio_distributed/templates/server_vm.yml.j2 
+  437  vim roles/fio_distributed/tasks/main.ym
+  438  vim roles/fio_distributed/tasks/main.yml 
+  439  find . -name completed.yml
+  440  vim ./roles/benchmark_state/tasks/completed.yml
+  441  git status
+  442  ls
+  443  vim playbooks/templates/metadata.yml.j2 
+  444  vim playbooks/templates/metadata_pod.yml.j2 
+  445  vim playbooks/group_vars/all.yml 
+  446  git stauts
+  447  git status
+  448  cat .git/config 
+  449  vim README.md 
+  450  git log -- charts/
+  451  git log -S grafana 
+  452  git show 4aceb0a4817daf795068079f208ce61c8300159a
+  453  git log -S grafana 
+  454  git show 6bde77461bac7f5d2a29f1786203c72c828b81d9
+  455  git log -S grafana 
+  456  git log -S visualization
+  457  cd ../snafu/
+  458  git status
+  459  vim README.md 
+  460  git status
+  461  cd ../gluster-performance-test-suite.git 
+  462  ls
+  463  history 
+  464  cat bensh.sh 
+  465  cd ..
+  466  ls
+  467  cd benchmark-operator/
+  468  ls
+  469  vim roles/fio_distributed/tasks/main.yml 
+  470  cat roles/fio_distributed/templates/client.yaml 
+  471  ls  roles/fio_distributed/templates/
+  472  vim roles/fio_distributed/templates/client.yaml 
+  473  find . metadata.yml.j2 .
+  474  find . -name metadata.yml.j2
+  475  vim ./playbooks/templates/metadata.yml.j2
+  476  vim roles/fio_distributed/templates/configmap.yml.j2 
+  477  vim roles/fio_distributed/templates/server_vm.yml.j2 
+  478  vim roles/fio_distributed/templates/client.yaml 
+  479  vim roles/fio_distributed/templates/configmap.yml.j2 
+  480  grep -nr iojob-prefill .
+  481  vim ./roles/fio_distributed/templates/client.yaml
+  482  grep -nr fio_json_to_log .
+  483  vim ./docs/fio_distributed.md
+  484  cat roles/fio_distributed/templates/configmap.yml.j2 
+  485  cat roles/fio_distributed/templates/server_vm.yml.j2 
+  486  git status
+  487  grep -nr job_params .
+  488  vim ./docs/fio_distributed.md
+  489  grep -nr job_params .
+  490  vim ./config/samples/fio/vm-cr.yaml
+  491  cat ./config/samples/fio/vm-cr.yaml
+  492  vim ./config/samples/fio/vm-cr.yaml
+  493  grep -nr job_params .
+  494  ls -laht ./tests/test_crs/valid_fiod*
+  495  ls -laht ./config/crd/bases/ripsaw.cloudbulldozer.io_benchmarks.yaml
+  496  vim ./tests/test_crs/valid_fiod.yaml
+  497  vim ./config/crd/bases/ripsaw.cloudbulldozer.io_benchmarks.yaml
+  498  vim ./docs/fio_distributed.md
+  499  git log
+  500  git show 58caf6bd5097802ab639e121bdaeeda7065d53a8
+  501  git log -- resources/crds/ripsaw_v1alpha1_fio_distributed_cr.yaml
+  502  ls resources/crds/ripsaw_v1alpha1_fio_distributed_cr.yaml
+  503  git log -- resources/crds/ripsaw_v1alpha1_fio_distributed_cr.yaml
+  504  git show 59028c2eeceef314d43b074e8716428ba04d1f51
+  505  git log -- resources/crds/ripsaw_v1alpha1_fio_distributed_cr.yaml
+  506  git show -- resources/crds/ripsaw_v1alpha1_fio_distributed_cr.yaml
+  507  git log -- resources/crds/ripsaw_v1alpha1_fio_distributed_cr.yaml
+  508  git show 59028c2eeceef314d43b074e8716428ba04d1f51
+  509  git sstatus
+  510  git show 81bed13dce1350ad0836bc8de2d8eb125619cb38
+  511  git log
+  512  vim config/samples/fio/vm-cr.yaml 
+  513  vim config/samples/fio/cr.yaml 
+  514  vim config/samples/fio/vm-cr.yaml 
+  515  vim config/samples/fio/cr.yaml 
+  516  grep -rn tests/test_fiod.sh 
+  517  vim tests/test_fiod.sh 
+  518  vim ./tests/test_crs/valid_fiod.yaml 
+  519  cd ../snafu/
+  520  vim dashboard.json 
+  521  git diff dashboard.json 
+  522  git show
+  523  docker ps
+  524  history |grep docker
+  525  history >> history
+  526  df -h
+  527  df -h /tmp
+  528  ls /tmp/fiodagine/2/write
+  529  ls /tmp/dir/172.169.100.49.f.\\* -lah
+  530  man fio
+  531  ls /tmp/dir/172.169.100.49.f.\\* -lah
+  532  cd perf/snafu/
+  533  cat fiojob1
+  534  cat /tmp/fiodagine/1/write/fio_clat_hist_processed.1
+  535  cat /tmp/fiodagine/1/write/fio_clat_hist.1.log.rpm9 
+  536  cat /tmp/fiodagine/1/write/fio_clat_hist_processed.1
+  537  cat /tmp/fiodagine/1/write/fio_clat_hist.1.log.rpm9
+  538  cat /tmp/fiodagine/1/write/fio_clat_hist_processed.1 
+  539  man fio
+  540  fio --server
+  541  ip addr
+  542  cd perf/snafu/
+  543  pyenv activate latest37
+  544  ls
+  545  ip addr
+  546  git status
+  547  git diff dashboard.json 
+  548  git status
+  549  vim dashboard.json 
+  550  mv dashboard.json dashboardraw.json 
+  551  git stauts
+  552  git status
+  553  git checkout -- dashboard.json
+  554  git status
+  555  git show
+  556  vim dashboardraw.json 
+  557  vim dashboard.json 
+  558  grep -nr p95 ../benchmark-operator/
+  559  grep -nr p95 .
+  560  vim ./snafu/fio_wrapper/trigger_fio.py
+  561  ls /tmp/fiodagine/1/read/fio_clat_hist.1.log.rpm9 
+  562  cat /tmp/fiodagine/1/read/fio_clat_hist.1.log.rpm9 
+  563  cat /tmp/fiodagine/1/read/fio_clat_hist.2.log.rpm9 
+  564  vim dashboard.json 
+  565  vim ./snafu/fio_wrapper/trigger_fio.py
+  566  grep -nr index ./snafu/fio_wrapper/trigger_fio.py
+  567  vim ./snafu/fio_wrapper/trigger_fio.py
+  568  hisvim ./snafu/fio_wrapper/trigger_fio.py
+  569  vim ./snafu/fio_wrapper/trigger_fio.py
+  570  grep -nr _trigger_fio .
+  571  vim ./snafu/fio_wrapper/fio_wrapper.py
+  572  vim bensh.sh 
+  573  history |grep help
+  574  run_snafu -t fio --help
+  575  vim ./snafu/fio_wrapper/fio_wrapper.py
+  576  curl --silent 'http://127.0.0.1:9200/_cat/_template' | cut -d\  -f3
+  577  history |grep cut
+  578  curl --silent 'http://127.0.0.1:9200/_cat/_template' | cut -d\  -f3
+  579  cat bensh.sh 
+  580  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  581  vim bensh.sh 
+  582  vim fiojob1 
+  583  cat ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  584  cat ../benchmark-operator/tests/test_crs/valid_fiod.yaml 
+  585  vim fiojob1 
+  586  sh bensh.sh 
+  587  vim bensh.sh 
+  588  sh bensh.sh 
+  589  fio --server &
+  590  sh bensh.sh 
+  591  grep fio history |grep client
+  592  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/ fiojob1
+  593  1fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/ fiojob1
+  594  mkdir /tmp/result.json
+  595  rm -rf /tmp/result.json/
+  596  touch /tmp/res.json
+  597  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json fiojob1
+  598  vim fiojob1 
+  599  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json fiojob1
+  600  ls /tmp/res.json 
+  601  cat bensh.sh 
+  602  history |grep client
+  603  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/fiod/1/rw/fio-result.json fiojob1
+  604  ls /tmp/fiodagine/1/read/fiojob 
+  605  cat /tmp/fiodagine/1/read/fiojob 
+  606  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  /tmp/fiodagine/1/read/fiojob
+  607  ps -ef|grep fio
+  608  kill -9 13323
+  609  fio --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  /tmp/fiodagine/1/read/fiojob
+  610  fio --debug=file  --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  /tmp/fiodagine/1/read/fiojob
+  611  vim fiojob1 
+  612  grep -nr log_hist_msec ../benchmark-operator/
+  613  vim ../benchmark-operator/docs/fio_distributed.md
+  614  vim ../benchmark-operator/docs/elastic.md
+  615  vim fiojob1 
+  616  vim ../benchmark-operator/docs/elastic.md
+  617  grep -nr read_runtime ../benchmark-operator/
+  618  vim ../benchmark-operator/docs/elastic.md
+  619  vim fiojob1 
+  620  vim ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  621  vim fiojob1 
+  622  vim ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  623  vim fiojob1 
+  624  vim ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  625  vim fiojob1 
+  626  vim ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  627  vim fiojob1 
+  628  vim ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  629  vim fiojob1 
+  630  vim ../benchmark-operator/config/samples/fio/vm-cr.yaml 
+  631  vim fiojob1 
+  632  df -h
+  633  vim fiojob1 
+  634  df -h /tmp
+  635  vim fiojob1 
+  636  sh bensh.sh 
+  637  vim /root/perf/snafu/snafu/fio_wrapper/fio_analyzer.py
+  638  fio --debug=file  --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  /tmp/fiodagine/1/read/fiojob
+  639  fio --debug=file  --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  640  ls /tmp/res.json 
+  641  cat /tmp/res.json 
+  642  ls -laht
+  643  sh bensh.sh 
+  644  vim /root/perf/snafu/snafu/fio_wrapper/fio_analyzer.py
+  645  sh bensh.sh 
+  646  vim fiojob1 
+  647  sh bensh.sh 
+  648  vim /root/perf/snafu/snafu/fio_wrapper/fio_analyzer.py
+  649  sh bensh.sh 
+  650  vim bensh.sh 
+  651  ls /tmp/dir/
+  652  vim bensh.sh 
+  653  vim fiojob1 
+  654  sh bensh.sh 
+  655  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  656  ls /tmp/fiodagine/1/read/fio_clat_hist.1.log.rpm9 
+  657  cat /tmp/fiodagine/1/read/fio_clat_hist.1.log.rpm9 
+  658  ls -lah /tmp/fiodagine/1/*/*_clat_hist*
+  659  grep -nr clat_hist .
+  660  vim ./snafu/fio_wrapper/trigger_fio.py
+  661  vim ./snafu/fio_wrapper/trigger_fio.pyvim ./snafu/fio_wrapper/trigger_fio.py
+  662  vim ./snafu/fio_wrapper/trigger_fio.py
+  663  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  664  ls -laht
+  665  cat fio_iops.3.log.rpm9
+  666  vim ./snafu/fio_wrapper/trigger_fio.py
+  667  ls -lah /tmp/fiodagine/1/read/ -laht
+  668  vim fiojob1 
+  669  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  670  ls -laht
+  671  vim fiojob1 
+  672  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  673  ls -laht
+  674  rm -rf fio*.log
+  675  git status
+  676  rm -rf fio_*
+  677  git status
+  678  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  679  ls -laht
+  680  git status
+  681  git diff setup.py 
+  682  git diff snafu
+  683  vim ./snafu/fio_wrapper/trigger_fio.py
+  684  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  685  v
+  686  vim fiojob1 
+  687  man log_avg_msec
+  688  man fio
+  689  vim fiojob1 
+  690  man fio
+  691  vim fiojob1 
+  692  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  693  ls -laht
+  694  vim fiojob1 
+  695  grep -nr log_sample_rate ../benchmark-operator/
+  696  vim fiojob1 
+  697  grep -nr write_time  ../benchmark-operator/
+  698  grep -nr time  ../benchmark-operator/
+  699  grep -nr time  ../benchmark-operator/|grep fio
+  700  grep -nr runtime  ../benchmark-operator
+  701  grep -nr runtime  ../benchmark-operator|grep fio
+  702  grep -nr log_sample_rate ../benchmark-operator/
+  703  man fio
+  704  vim fiojob1 
+  705  fio   --client=/root/perf/snafu/hosts --output-format=json --output=/tmp/res.json  fiojob1 
+  706  ls -laht
+  707  cat fio_clat_hist.1.log.rpm9
+  708  cat fio_iops.1.log.rpm9
+  709  ls -lah
+  710  rm -rf fio_*
+  711  git status
+  712  vim fiojob1 
+  713  grep ramp_time ../benchmark-operator/
+  714  grep ramptime ../benchmark-operator/
+  715  grep -nr ramptime ../benchmark-operator/
+  716  grep -nri ramptime ../benchmark-operator/
+  717  grep -nri ramp_time ../benchmark-operator/
+  718  vim fiojob1 
+  719  sh bensh.sh 
+  720  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  721  ls /tmp/fiodagine/2/write
+  722  cat /tmp/fiodagine/2/write/fio_clat_hist.1.log.rpm9
+  723  grep -nr analyzed-result .
+  724  vim ./snafu/fio_wrapper/fio_analyzer.py
+  725  grep -nr yield .
+  726  grep -nr -B 1  yield .
+  727  grep -nr -B 1  yield .|grep fio
+  728  vim ./snafu/fio_wrapper/trigger_fio.py
+  729  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  730  sh bensh.sh 
+  731  vim ./snafu/fio_wrapper/trigger_fio.py
+  732  vim bensh.sh 
+  733  run_snafu -t fio --help
+  734  vim bensh.sh 
+  735  sh bensh.sh 
+  736  grep -nr self.histogram_process .
+  737  grep -nr process_histogram .
+  738  vim ./snafu/fio_wrapper/trigger_fio.py
+  739  grep -nr _trigger_fio .
+  740  vim ./snafu/fio_wrapper/fio_wrapper.py
+  741  sh bensh.sh 
+  742  vim ./snafu/fio_wrapper/fio_wrapper.py
+  743  vim bensh.sh 
+  744  sh bensh.sh 
+  745  vim bensh.sh 
+  746  vim ./snafu/fio_wrapper/fio_
+  747  vim ./snafu/fio_wrapper/trigger_fio.py
+  748  sh bensh.sh 
+  749  vim bensh.sh 
+  750  sh bensh.sh 
+  751  grep -nr histogram_process .
+  752  vim ./snafu/fio_wrapper/trigger_fio.py
+  753  vim ./snafu/fio_wrapper/fio_wrapper.py 
+  754  vim ./snafu/fio_wrapper/trigger_fio.py
+  755  vim ./snafu/fio_wrapper/fio_wrapper.py 
+  756  sh bensh.sh 
+  757  vim ./snafu/fio_wrapper/fio_wrapper.py 
+  758  grep -nr _trigger_fio .
+  759  vim ./snafu/fio_wrapper/fio_wrapper.py
+  760  vim ./snafu/fio_wrapper/trigger_fio.py
+  761  vim ./snafu/fio_wrapper/fio_wrapper.py
+  762  sh bensh.sh 
+  763  vim ./snafu/fio_wrapper/trigger_fio.py
+  764  vim ./snafu/fio_wrapper/fio_wrapper.py
+  765  vim ./snafu/fio_wrapper/trigger_fio.py
+  766  vim ./snafu/fio_wrapper/fio_wrapper.py
+  767  vim ./snafu/fio_wrapper/trigger_fio.py
+  768  vim /root/perf/snafu/snafu/fio_wrapper/fio_hist_parser.py
+  769  sh bensh.sh 
+  770  vim ./snafu/fio_wrapper/trigger_fio.py
+  771  sh bensh.sh 
+  772  vim /root/perf/snafu/snafu/fio_wrapper/fio_wrapper.py
+  773  sh bensh.sh 
+  774  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  775  vim /root/perf/snafu/snafu/fio_wrapper/fio_wrapper.py
+  776  vim /root/perf/snafu/snafu/fio_wrapper/fio_hist_parser.py
+  777  grep -nr debug .
+  778  vim ./snafu/fio_wrapper/trigger_fio.py
+  779  sh bensh.sh 
+  780  vim ./snafu/fio_wrapper/trigger_fio.py
+  781  sh bensh.sh 
+  782  vim bensh.sh 
+  783  sh bensh.sh 
+  784  vim bensh.sh 
+  785  vim ./snafu/fio_wrapper/trigger_fio.py
+  786  sh bensh.sh 
+  787  grep -nr number_samples_histogram .
+  788  vim ./snafu/fio_wrapper/trigger_fio.py
+  789  sh bensh.sh 
+  790  vim ./snafu/fio_wrapper/trigger_fio.py
+  791  grep -nr processed .
+  792  grep -nr processed .|grep fio
+  793  vim ./snafu/fio_wrapper/trigger_fio.py
+  794  history 
+  795  vim /root/perf/snafu/snafu/fio_wrapper/fio_hist_parser.py
+  796  sh bensh.sh 
+  797  vim ./snafu/fio_wrapper/trigger_fio.
+  798  vim ./snafu/fio_wrapper/trigger_fio.py 
+  799  sh bensh.sh 
+  800  vim ./snafu/fio_wrapper/fio_hist_parser.py 
+  801  vim ./snafu/fio_wrapper/trigger_fio.py 
+  802  vim ./snafu/fio_wrapper/fio_hist_parser.py 
+  803  git diff ./snafu/fio_wrapper/fio_hist_parser.py
+  804  vim fiojob1 
+  805  sh bensh.sh 
+  806  vim ./snafu/fio_wrapper/fio_hist_parser.py 
+  807  sh bensh.sh 
+  808  vim ./snafu/fio_wrapper/fio_hist_parser.py 
+  809  sh bensh.sh 
+  810  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  811  vim /root/perf/snafu/snafu/fio_wrapper/trigger_fio.py
+  812  sh bensh.sh 
+  813  git status
+  814  vim snafu/fio_wrapper/fio_hist_parser.py
+  815  sh bensh.sh 
+  816  git status
+  817  vim snafu/fio_wrapper/fio_hist_parser.py
+  818  cat /tmp/fiodagine/1/read/fio_clat_hist_processed.1
+  819  vim snafu/fio_wrapper/fio_hist_parser.py
+  820  vim snafu/fio_wrapper/trigger_fio.py 
+  821  cat /tmp/fiodagine/1/read/fio_clat_hist_processed.1
+  822  vim snafu/fio_wrapper/trigger_fio.py 
+  823  vim snafu/fio_wrapper/fio_hist_parser.py
+  824  vim snafu/fio_wrapper/trigger_fio.py 
+  825  cd ../benchmark-operator/
+  826  git status
+  827  git branch -a
+  828  git checkout fioindex 
+  829  ls
+  830  grep -nr percent .
+  831  vim ./roles/result/files/fio-histo-log-pctiles.py
+  832  grep -nr compute_percentiles_from_logs .
+  833  vim ./roles/result/files/fio-histo-log-pctiles.py
+  834  grep -nr fio-histo-log-pctiles.py .
+  835  vim ./roles/result/tasks/fiod-clat-hist.yaml 
+  836  cd ../snafu/
+  837  git status
+  838  vim snafu/fio_wrapper/trigger_fio.py
+  839  git status
+  840  git diff setup.py 
+  841  git add setup.py 
+  842  git commit -m "add paramiko dep, need place in the first run"
+  843  git status
+  844  git diff snafu/run_snafu.py
+  845  git add -p snafu/run_snafu.py
+  846  git commit -m "drop cache here"
+  847  git status
+  848  git diff snafu/fio_wrapper/fio_analyzer.py
+  849  git diff snafu/fio_wrapper/fio_hist_parser.py
+  850  git add -p snafu/fio_wrapper/fio_hist_parser.py
+  851  git commit -m "reduce in funnctools"
+  852  git status
+  853  git diff snafu/fio_wrapper/fio_wrapper.py
+  854  git add -p snafu/fio_wrapper/fio_wrapper.py
+  855  git commit -m "histogramprocess fix"
+  856  git status
+  857  git diff snafu/fio_wrapper/trigger_fio.py
+  858  git status
+  859  git diff snafu/fio_wrapper/fio_hist_parser.py
+  860  git add -p snafu/fio_wrapper/fio_hist_parser.py
+  861  git status
+  862  git diff snafu/fio_wrapper/fio_wrapper.py
+  863  git add -p snafu/fio_wrapper/fio_wrapper.py
+  864  git commit -m "drop cache here"
+  865  git status
+  866  git diff snafu/fio_wrapper/trigger_fio.py
+  867  git add -p snafu/fio_wrapper/trigger_fio.py
+  868  git commit -m "fix fio log processing, offset omit now"
+  869  git status
+  870  git diff snafu/utils/request_cache_drop.py
+  871  git add snafu/utils/request_cache_drop.py
+  872  git commit -m "drop cache raw impl"
+  873  git status
+  874  git diff snafu/run_snafu.py
+  875  git status
+  876  git diff
+  877  git status
+  878  vim snafu/fio_wrapper/trigger_fio.py
+  879  git status
+  880  cat ~/.gitconfig 
+  881  fio --server
+  882  pyenv activate latest37
+  883  cd perf/snafu/
+  884  ls
+  885  git status
+  886  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  887  grep -nr p99 .
+  888  vim ./snafu/fio_wrapper/trigger_fio.py
+  889  git status
+  890  git staus
+  891  vim fiojob1 
+  892  git add fiojob1 
+  893  git commit -m "running ok fiojob file"
+  894  vim fiojob1 
+  895  sh bensh.sh 
+  896  vim dashboard.json 
+  897  git status
+  898  git diff dashboard.json 
+  899  rm -rf dashboard.json 
+  900  vim dashboard.json
+  901  git status
+  902  git diff dashboard.json 
+  903  git add dashboard.json 
+  904  git commit -m "fix dashboard.json for agg"
+  905  git status
+  906  ls /tmp/fiodagine/1/read/ -laht
+  907  cat /tmp/fiodagine/1/read/fio_lat.1.log.rpm9
+  908  curl --silent 'http://127.0.0.1:9200/_cat/indices' | cut -d\  -f3
+  909  cat /tmp/fiodagine/sa
+  910  vim ./snafu/fio_wrapper/trigger_fio.py
+  911  man date
+  912  vim ./snafu/fio_wrapper/trigger_fio.py
+  913  git diff ./snafu/fio_wrapper/trigger_fio.py
+  914  vim ./snafu/fio_wrapper/trigger_fio.py
+  915  date
+  916  vim ./snafu/fio_wrapper/trigger_fio.py
+  917  grep -nr utc ./snafu/fio_wrapper/trigger_fio.py
+  918  grep -nr utc ./snafu|grep fio
+  919  grep -nr Z ./snafu|grep fio
+  920  grep -nr Z ./snafu
+  921  grep -nr Z ./snafu|grep time
+  922  grep -nr Z ./snafu
+  923  grep -nr Z ./snafu|grep -v Binary
+  924  grep -nr utc ./snafu|grep fio
+  925  grep -nr utc ./snafu
+  926  grep -nr utc ./snafu|grep -v Binary
+  927  python --version
+  928  python
+  929  vim ./snafu/fio_wrapper/trigger_fio.py
+  930  python
+  931  vim ./snafu/fio_wrapper/trigger_fio.py
+  932  vim ./snafu/utils/get_prometheus_data.py
+  933  vim ./snafu/run_snafu.py
+  934  grep -nr Z ./snafu|grep -v Binary
+  935  vim ./snafu/fio_wrapper/fio_analyzer.py
+  936  vim ./snafu/utils/common_logging.py
+  937  vim ./snafu/fio_wrapper/fio_analyzer.py
+  938  vim ./snafu/utils/common_logging.py
+  939  vim ./snafu/fio_wrapper/fio_analyzer.py
+  940  vim ./snafu/utils/py_es_bulk.py
+  941  git diff
+  942  git status
+  943  vim ./snafu/utils/py_es_bulk.py
+  944  vim ./snafu/utils/get_prometheus_data.py
+  945  sh bensh.sh 
+  946  vim fiojob1 
+  947  sh bensh.sh 
+  948  ls -laht /tmp/dir/172.169.100.49.f.\\
+  949  ls -laht /tmp/dir/172.169.100.49.f.\\*
+  950  df -h
+  951  rm -rf  /tmp/dir/172.169.100.49.f.\\*
+  952  df -h
+  953  vim fiojob1 
+  954  sh bensh.sh 
+  955  git status
+  956  vim fiojob1 
+  957  vim ./snafu/fio_wrapper/trigger_fio.py
+  958  grep -nr es .
+  959  grep -nr es .|grep bulk
+  960  vim ./snafu/run_snafu.py
+  961  grep -nr gmt .
+  962  vim ./snafu/fio_wrapper/fio_analyzer.py
+  963  git diff ./snafu/fio_wrapper/fio_analyzer.py
+  964  vim ./snafu/fio_wrapper/fio_analyzer.py
+  965  grep -nr add_fio_result_documents .
+  966  vim ./snafu/fio_wrapper/trigger_fio.py
+  967  vim ./snafu/fio_wrapper/fio_analyzer.py
+  968  vim ./snafu/fio_wrapper/trigger_fio.py 
+  969  vim ./snafu/fio_wrapper/fio_analyzer.py
+  970  grep -nr add_fio_result_documents .
+  971  vim ./snafu/fio_wrapper/trigger_fio.py
+  972  cat /tmp/fiodagine/1/read/fio-result.json 
+  973  cat /tmp/fiodagine/1/read/fio-result.json |grep timest
+  974  vim /tmp/fiodagine/1/read/fio-result.json 
+  975  ls -laht /tmp/fiodagine/1/read/fio-result.json 
+  976  date -d @1630662651
+  977  date -d @1630662651 +'%Y-%m-%d %H:%M:%S'
+  978  date -d @1630662651 +'%Y-%m-%d %H:%M:%S%z'
+  979  date -d @1630662651 +'%Y-%m-%d %H:%M:%S%Z'
+  980  man date
+  981  date -d @1630662651 +'%Y-%m-%d %H:%M:%S%:z'
+  982  date -d @1630662651 +'%Y-%m-%d %H:%M:%S%::z'
+  983  date -d @1630662651 +'%Y-%m-%d %H:%M:%S%:::z'
+  984  git status
+  985  vim snafu/fio_wrapper/fio_analyzer.py
+  986  git status
+  987  git status 
+  988  sh bensh.sh 
+  989  vim /root/perf/snafu/snafu/fio_wrapper/fio_analyzer.py
+  990  sh bensh.sh 
+  991  vim /root/perf/snafu/snafu/fio_wrapper/fio_analyzer.py
+  992  sh bensh.sh 
+  993  vim /root/perf/snafu/snafu/fio_wrapper/fio_analyzer.py
+  994  sh bensh.sh 
+  995  pyenv shell latest37
+  996  python --version
+  997  run_snafu --help
+  998  exit
+  999  history |grep date
+ 1000  date -d @1630916717000
+ 1001  date -d @1630662651
+ 1002  date -d @1630916717
+ 1003  man fio
+ 1004  head /tmp/fiodagine/1/read/fio_iops.1.log.rpm9 
+ 1005  head /tmp/fiodagine/1/read/fio_bw.1.log.rpm9 
+ 1006  head /tmp/fiodagine/1/read/fio_clat.1.log.rpm9 
+ 1007  head /tmp/fiodagine/1/read/fio_lat.1.log.rpm9 
+ 1008  head /tmp/fiodagine/1/write/fio-result.json 
+ 1009  head /tmp/fiodagine/1/write/fio_bw.1.log.rpm9 
+ 1010  head /tmp/fiodagine/1/write/fio_iops.1.log.rpm9 
+ 1011  head /tmp/fiodagine/1/write/fio_iops.2.log.rpm9 
+ 1012  cd perf/benchmark-operator/
+ 1013  grep -nri bs .
+ 1014  vim ./docs/fio_distributed.md
+ 1015  vim ./tests/test_crs/valid_fiod.yaml
+ 1016  grep -nr filesize .
+ 1017  cat ./roles/fio-distributed/templates/job.fio.rand
+ 1018  head /tmp/fiodagine/1/write/fio_iops.2.log.rpm9 
+ 1019* head /tmp/fiodagine/1/write/fio_bw.1.log
+ 1020  head /tmp/fiodagine/1/write/fio_iops.2.log.rpm9 
+ 1021  cd ../snafu/
+ 1022  ls
+ 1023  vim snafu/fio_wrapper/fio_hist_parser.py 
+ 1024  history |grep pyenv
+ 1025  pyenv virtualenvs
+ 1026  grep -nr pyenv ../
+ 1027  cd ..
+ 1028  vim snafu/run_compare.sh 
+ 1029  cd benchmark-comparison/
+ 1030  pyenv virtualenv 3.7.10 benchcompare
+ 1031  cat ../snafu/run_compare.sh 
+ 1032  vim ../snafu/run_compare.sh 
+ 1033  pip3 install .
+ 1034  1pyenv activate latest37
+ 1035  pyenv activate benchcompare
+ 1036  pip3 install .
+ 1037  pwd
+ 1038  touchstone_compare --help
+ 1039  cat config/ycsb.json 
+ 1040  cat config/uperf.json 
+ 1041  touchstone_compare --help
+ 1042  cat ../snafu/run_compare.sh 
+ 1043  touchstone_compare -url http://172.18.123.49:9200 -u c7d3fcb2-c025-537a-9496-20250c6e6a27 --config config/fio.json
+ 1044  cp config/uperf.json config/fio.json
+ 1045  vim config/fio.json 
+ 1046  git add config/fio.json 
+ 1047  git commit -m "use uperf config json for fio"
+ 1048  vim config/fio.json 
+ 1049  touchstone_compare -url http://172.18.123.49:9200 -u c7d3fcb2-c025-537a-9496-20250c6e6a27 --config config/fio.json
+ 1050  touchstone_compare -url http://172.18.123.49:9200 -u 519e6cb2-8b4f-49e1-bae4-e9c91da85b00 --config config/fio.json
+ 1051  vim config/fio.json 
+ 1052  vim config/fioread.json 
+ 1053  touchstone_compare -url http://172.18.123.49:9200 -u 519e6cb2-8b4f-49e1-bae4-e9c91da85b00 --config config/fioread.json.json
+ 1054  touchstone_compare -url http://172.18.123.49:9200 -u 519e6cb2-8b4f-49e1-bae4-e9c91da85b00 --config config/fioread.json
+ 1055  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 --config config/fioread.json
+ 1056  vim config/fioread.json 
+ 1057  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 --config config/fioread.json
+ 1058  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1059  vim config/fio.json 
+ 1060  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1061  vim config/fio.json 
+ 1062  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1063  vim config/fio.json 
+ 1064  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1065  vim config/fio.json 
+ 1066  cat ../snafu/run_compare.sh 
+ 1067  cd ..
+ 1068  git clone https://github.com/cloud-bulldozer/perfscale-jupyter-notebooks.git
+ 1069  cd benchmark-comparison/
+ 1070  vim config/kubeburner.json 
+ 1071  vim config/fio.json 
+ 1072  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1073  vim config/fio.json 
+ 1074  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1075  vim config/fio.json 
+ 1076  vim config/kubeburner.json 
+ 1077  vim config/uperf.json 
+ 1078  vim config/fio.json 
+ 1079  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1080  vim config/fio.json 
+ 1081  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1082  vim config/fio.json 
+ 1083  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1084  vim config/fio.json 
+ 1085  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1086  vim config/fio.json 
+ 1087  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1088  vim config/fio.json 
+ 1089  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1090  vim config/fio.json 
+ 1091  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1092  vim config/fio.json 
+ 1093  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1094  vim config/fio.json 
+ 1095  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1096  vim config/fio.json 
+ 1097  touchstone_compare -url http://172.18.123.49:9200 -u 13410a50-595c-4e48-b24e-ad12d2882db9 6215b510-970f-4b2a-a34f-565b19db7271  --config config/fio.json
+ 1098  vim config/fio.json 
+ 1099  git status
+ 1100  git add config/fio.json 
+ 1101  git add config/fioread.json 
+ 1102  git commit -m "example fio config json"
+ 1103  git status
+ 1104  history 
+ 1105  git status
+ 1106  cat ../snafu/.git/config 
+ 1107  vim .git/config 
+ 1108  git status
+ 1109  git push origin master
+ 1110  git status
+ 1111  pwd
+ 1112  history >> history
